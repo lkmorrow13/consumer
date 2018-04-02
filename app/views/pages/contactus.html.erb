@@ -1,0 +1,15 @@
+<div class="container formcontainer">
+	<div class="row justify-content-center">
+		<div class="col-sm-12 col-md-5">
+			<div class="form-group">
+				<%= form_with url: '/contactus' do |f| %>
+					<%= f.text_field :name, placeholder: 'Name', class: 'form-control pagesForm' %>
+					<%= f.email_field :email, placeholder: 'Email', class: 'form-control pagesForm' %>
+					<%= f.text_field :subject, placeholder: 'Subject', class: 'form-control pagesForm' %>
+					<%= f.text_area :message, placeholder: 'Message & Questions', class: 'form-control pagesForm' %>
+					<%= f.submit value: 'Send', class: 'btn btn-primary pagesForm' %>
+				<% end %>
+			</div>
+		</div>
+	</div>
+</div>

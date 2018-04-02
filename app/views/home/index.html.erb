@@ -1,7 +1,7 @@
 <div class="container homeContainer">
-	<div>
-		<h3></h3>
-	</div>
-	<div></div>
-	<div></div>
+  <div class="puppies row justify-content-center greyBackground">
+    <% if @puppies.present? %>
+    	<%= render @puppies %>
+		<% end %>
+  </div>
 </div>

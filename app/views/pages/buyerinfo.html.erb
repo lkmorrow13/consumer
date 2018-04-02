@@ -1,0 +1,17 @@
+<div class="container formcontainer">
+	<div class="row justify-content-center">
+		<div class="col-sm-12 col-md-5">
+			<div class="form-group">
+				<%= form_with url: '/buyerinfo' do |f| %>
+						<%= f.text_field :buyername, placeholder: 'Buyer Name', class: 'form-control pagesForm' %>
+						<%= f.email_field :buyeremail, placeholder: 'Email', class: 'form-control pagesForm' %>
+						<%= f.text_field :buyerphone, placeholder: 'Phone Number', class: 'form-control pagesForm' %>
+						<%= f.text_field :buyeraddress, placeholder: 'Buyer Address', class: 'form-control pagesForm' %>
+						<%= f.text_field :buyersubject, placeholder: 'Subject', class: 'form-control pagesForm' %>
+						<%= f.text_area :buyermessage, placeholder: 'Message & Questions', class: 'form-control pagesForm' %>
+						<%= f.submit value: 'Send', class: 'btn btn-primary pagesForm' %>
+				<% end %>
+			</div>
+		</div>
+	</div>
+</div>
