@@ -1,9 +1,9 @@
-<div class="container formcontainer">
+<div class="container formcontainer buyercontainerdesign">
 	<div class="row justify-content-center">
-		<div class="col-sm-12 col-md-5">
+		<div class="col-sm-12 col-md-5 buyerformdesign">
 			<div class="form-group">
 				<%= form_with url: '/contactus' do |f| %>
-					<%= f.text_field :name, placeholder: 'Name', class: 'form-control pagesForm' %>
+					<%= f.text_field :name, placeholder: 'Name', class: 'form-control pagesForm formmargintop' %>
 					<%= f.email_field :email, placeholder: 'Email', class: 'form-control pagesForm' %>
 					<%= f.text_field :subject, placeholder: 'Subject', class: 'form-control pagesForm' %>
 					<%= f.text_area :message, placeholder: 'Message & Questions', class: 'form-control pagesForm' %>
