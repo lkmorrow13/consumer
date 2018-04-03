@@ -3,9 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.homeContainer {
-	background-color: grey;
-	height: 800px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+.homemomstext {
+	width: 50%;
+}
+
+.momsimage {
+	width: 50%;
+	height: 90%;
+	border-radius: 7px;
+
+	img {
+		width: 100%;
+		height: 100%;
+		border-radius: 7px;
+	}
+}
+
+.previouspups {
+	img {
+		height: 335px;
+		width: 248px;
+		border-radius: 7px;
+	}
 }

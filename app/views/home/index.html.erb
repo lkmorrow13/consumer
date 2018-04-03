@@ -1,5 +1,40 @@
-<div class="container homeContainer">
-  <div class="puppies row justify-content-center greyBackground">
+<div class="container formcontainer buyercontainerdesign">
+	<div class="row justify-content-center">
+		<div class="registrationdesign">
+			<h3 class="homemomstext float-left">
+				Our two beautiful little girls are our pride and joy! They so much fun to play with and they have such loving personalities! Our oldest Airedale is Meg! She loves to snuggle and relax with you! She enjoys long walks and play fetch. Our next Airedale is Molly. She's a playful pup that has an abundance of energy. She loves playing with Meg as well as with us!
+			</h3>
+			<div class="momsimage float-left">
+				<%= image_tag asset_path('IMG_2287.JPG') %>
+			</div>
+		</div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="registrationdesign">
+			<h3>
+				These are just a few pictures of Megs previous liter. She was a very caring mother and they all turned out beautiful! I hope that this will give you an idea of how beautiful the puppies can be.
+			</h3>
+			<div class="previouspups">
+				<%= image_tag asset_path('IMG_2353.JPG') %>
+				<%= image_tag asset_path('IMG_2354.JPG') %>
+				<%= image_tag asset_path('IMG_2356.JPG') %>
+				<%= image_tag asset_path('IMG_2359.JPG') %>
+			</div>
+		</div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="registrationdesign">
+			<h3 class="homemomstext float-left">
+				We started breeding Meg because of our love for dogs. They bring so much warmth to a home and to a heart. They love unconditionally and they bring a new light to your world. Meg and Molly have become so much more than just our dogs, they've become a big part of our family. Dogs know when you're sad or hurting and they always try to either cheer you up or comfort you in their own way. 
+			</h3>
+			<div class="momsimage float-left">
+				<%= image_tag asset_path('IMG_1556.JPG') %>
+			</div>
+		</div>
+	</div>
+
+
+  <div class="puppies row justify-content-center">
     <% if @puppies.present? %>
     	<%= render @puppies %>
 		<% end %>
