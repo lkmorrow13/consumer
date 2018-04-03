@@ -1,9 +1,14 @@
-<div class="container formcontainer">
+<div class="container formcontainer buyercontainerdesign">
 	<div class="row justify-content-center">
-		<div class="col-sm-12 col-md-5">
+		<div class="buyerinfomassage">
+			<h4>
+				If you're serious about buying one of our beautiful puppies please fill out this form and also let us know what puppy you're interested.
+			</h4>
+		</div>
+		<div class="col-sm-12 col-md-5 buyerformdesign">
 			<div class="form-group">
 				<%= form_with url: '/buyerinfo' do |f| %>
-						<%= f.text_field :buyername, placeholder: 'Buyer Name', class: 'form-control pagesForm' %>
+						<%= f.text_field :buyername, placeholder: 'Buyer Name', class: 'form-control pagesForm formmargintop' %>
 						<%= f.email_field :buyeremail, placeholder: 'Email', class: 'form-control pagesForm' %>
 						<%= f.text_field :buyerphone, placeholder: 'Phone Number', class: 'form-control pagesForm' %>
 						<%= f.text_field :buyeraddress, placeholder: 'Buyer Address', class: 'form-control pagesForm' %>
