@@ -24,7 +24,7 @@ production:
   <<: *default
   adapter: postgresql
   encoding: unicode
-  database: rockyairedales
-  username: LKMorrow
+  database: rockydales
+  username: lgbennion
   password: <%= ENV['ROCKYDALES_DB_PASSWORD'] %>
-  url: postgresql://rockyairedales.ce8pwz9cu9rq.us-east-1.rds.amazonaws.com
+  url: <%= ENV['SHARED_ADMIN_DB_URL'] %>
